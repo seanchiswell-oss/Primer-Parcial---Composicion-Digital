@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gran Fondo Buenos Aires 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a class="marca" href="#inicio">GRAN FONDO <span>BUENOS AIRES</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#evento">El evento</a>
+        <a href="#ubicacion">Cómo llegar</a>
+        <a href="#preguntas">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="portada" aria-labelledby="titulo-principal">
+      <div class="contenedor portada-contenido">
+        <div class="portada-texto">
+          <p class="etiqueta">CICLISMO EN BUENOS AIRES · EDICIÓN 2026</p>
+          <h1 id="titulo-principal">Gran Fondo<br>Buenos Aires</h1>
+          <p>Una carrera para vivir la ciudad desde la bicicleta, en un circuito cerrado al tránsito.</p>
+          <p class="dato-portada"><strong>Domingo 11 de octubre</strong> · Desde las 6:00 h</p>
+          <a class="boton" href="https://granfondoargentina.com/bsas/" target="_blank" rel="noopener noreferrer">Conocer el evento ↗</a>
+        </div>
+        <img class="foto-portada" src="img/peloton.webp" alt="Pelotón de ciclistas en una edición anterior del Gran Fondo Argentina">
+      </div>
+    </section>
+
+    <section class="seccion" id="evento" aria-labelledby="titulo-evento">
+      <div class="contenedor">
+        <p class="etiqueta">01 / EL EVENTO</p>
+        <h2 id="titulo-evento">Una ciudad para pedalear</h2>
+        <p class="introduccion">El Gran Fondo recorre calles y autopistas de Buenos Aires cerradas al tránsito. Hay dos distancias para elegir y actividades en Parque Sarmiento durante los días previos.</p>
+
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <p class="numero">129 <span>km</span></p>
+            <h3>Gran Fondo</h3>
+            <p>El recorrido largo para quienes quieren un desafío mayor.</p>
+          </article>
+          <article class="tarjeta">
+            <p class="numero">46 <span>km</span></p>
+            <h3>Medio Fondo</h3>
+            <p>Una distancia más corta para disfrutar la experiencia.</p>
+          </article>
+          <article class="tarjeta tarjeta-clara">
+            <p class="numero">09—10 <span>oct</span></p>
+            <h3>Expo Bici</h3>
+            <p>Acreditación, actividades y propuestas relacionadas con el ciclismo en Parque Sarmiento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-azul" id="ubicacion" aria-labelledby="titulo-ubicacion">
+      <div class="contenedor">
+        <p class="etiqueta">02 / UBICACIÓN</p>
+        <h2 id="titulo-ubicacion">Cómo llegar</h2>
+        <div class="ubicacion-columnas">
+          <div>
+            <h3>Parque Sarmiento</h3>
+            <p>Av. Dr. Ricardo Balbín 4750, Ciudad de Buenos Aires.</p>
+            <p>La largada y la llegada de la edición 2026 serán en la zona del parque. La acreditación se realiza allí durante la Expo Bici.</p>
+            <p>Planificá tu viaje con anticipación: el circuito utiliza vías cerradas al tránsito durante la carrera.</p>
+            <a class="enlace" href="https://www.google.com/maps/search/?api=1&query=Parque+Sarmiento+Av.+Dr.+Ricardo+Balb%C3%ADn+4750+Buenos+Aires" target="_blank" rel="noopener noreferrer">Abrir indicaciones en Google Maps ↗</a>
+          </div>
+          <div class="mapa">
+            <iframe title="Mapa de Parque Sarmiento, Buenos Aires" src="https://www.google.com/maps?q=Parque+Sarmiento,+Av.+Dr.+Ricardo+Balb%C3%ADn+4750,+Buenos+Aires&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="preguntas" aria-labelledby="titulo-preguntas">
+      <div class="contenedor">
+        <p class="etiqueta">03 / DUDAS Y CONTACTO</p>
+        <h2 id="titulo-preguntas">Preguntas frecuentes</h2>
+        <div class="faq-columnas">
+          <div class="lista-preguntas">
+            <article class="pregunta">
+              <h3>¿Cuándo es la carrera?</h3>
+              <p>El domingo 11 de octubre de 2026. La largada comienza a las 6:00 h.</p>
+            </article>
+            <article class="pregunta">
+              <h3>¿Qué distancias hay?</h3>
+              <p>Podés elegir entre un recorrido de 129 km y otro de 46 km.</p>
+            </article>
+            <article class="pregunta">
+              <h3>¿Dónde se hace la acreditación?</h3>
+              <p>En la Expo Bici Buenos Aires, en Parque Sarmiento, los días previos a la carrera.</p>
+            </article>
+            <article class="pregunta">
+              <h3>¿Dónde me inscribo?</h3>
+              <p>La inscripción se realiza desde el <a href="https://granfondoargentina.com/bsas/" target="_blank" rel="noopener noreferrer">sitio oficial del evento</a>.</p>
+            </article>
+          </div>
+
+          <div class="contacto" id="contacto">
+            <h3>¿Tenés otra consulta?</h3>
+            <form action="mailto:info@granfondoargentina.com" method="post" enctype="text/plain">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="Nombre" type="text" placeholder="Tu nombre" required>
+
+              <label for="correo">Correo electrónico</label>
+              <input id="correo" name="Correo" type="email" placeholder="tu@email.com" required>
+
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="Mensaje" rows="5" placeholder="Escribí tu consulta" required></textarea>
+
+              <button class="boton" type="submit">Preparar correo ↗</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <p><strong>GRAN FONDO BUENOS AIRES</strong><br>Composicion Digital · DGN5AV</p>
+    </div>
+  </footer>
+</body>
+</html>
